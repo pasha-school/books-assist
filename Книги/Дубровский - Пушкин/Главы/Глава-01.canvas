@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"dubrovsky","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Андрей Гаврилович Дубровский.md","x":30,"y":600,"width":200,"height":120,"color":"1"},
+		{"id":"psarnya","type":"file","file":"Книги/Дубровский - Пушкин/Места/Псарный двор Троекурова.md","x":1420,"y":1020,"width":200,"height":120,"color":"3"},
+		{"id":"pokrovskoe","type":"file","file":"Книги/Дубровский - Пушкин/Места/Село Покровское.md","x":1420,"y":540,"width":200,"height":120,"color":"3"},
+		{"id":"troekurov","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Кирила Петрович Троекуров.md","x":1040,"y":-220,"width":200,"height":120,"color":"1"},
+		{"id":"event-court","type":"file","file":"Книги/Дубровский - Пушкин/События/E003-троекуров-начина-суд.md","x":420,"y":60,"width":375,"height":120,"color":"4"},
+		{"id":"kistenevka","type":"file","file":"Книги/Дубровский - Пушкин/Места/Деревня Кистеневка.md","x":30,"y":1020,"width":200,"height":120,"color":"3"},
+		{"id":"event-friendship","type":"file","file":"Книги/Дубровский - Пушкин/События/E001-троекуров-и-дубровский-дружба.md","x":545,"y":540,"width":250,"height":120,"color":"4"},
+		{"id":"chapter-1","type":"text","text":"# ГЛАВА 1\n\n## Краткое содержание\n\nЗнакомство с главными героями - Кирилой Петровичем Троекуровым и Андреем Гавриловичем Дубровским. Описание характеров, их дружбы и начала конфликта из-за дерзкого замечания псаря.","x":-400,"y":-40,"width":300,"height":440,"color":"2"},
+		{"id":"event-conflict","type":"file","file":"Книги/Дубровский - Пушкин/События/E002-конфликт-на-псарне.md","x":1040,"y":420,"width":200,"height":120,"color":"4"}
+	],
+	"edges":[
+		{"id":"edge-1","fromNode":"chapter-1","fromSide":"right","toNode":"troekurov","toSide":"left","label":"главный герой"},
+		{"id":"edge-2","fromNode":"chapter-1","fromSide":"right","toNode":"dubrovsky","toSide":"left","label":"главный герой"},
+		{"id":"edge-3","fromNode":"troekurov","fromSide":"right","toNode":"pokrovskoe","toSide":"left","label":"владеет"},
+		{"id":"edge-4","fromNode":"dubrovsky","fromSide":"right","toNode":"kistenevka","toSide":"left","label":"владеет"},
+		{"id":"edge-5","fromNode":"pokrovskoe","fromSide":"bottom","toNode":"psarnya","toSide":"top","label":"находится"},
+		{"id":"edge-6","fromNode":"event-friendship","fromSide":"top","toNode":"chapter-1","toSide":"bottom","label":"описывает"},
+		{"id":"edge-7","fromNode":"event-conflict","fromSide":"top","toNode":"chapter-1","toSide":"bottom","label":"происходит"},
+		{"id":"edge-8","fromNode":"event-court","fromSide":"top","toNode":"chapter-1","toSide":"bottom","label":"начинается"},
+		{"id":"edge-9","fromNode":"event-conflict","fromSide":"right","toNode":"psarnya","toSide":"left","label":"место"},
+		{"id":"edge-10","fromNode":"troekurov","fromSide":"bottom","toNode":"event-friendship","toSide":"top","label":"участник"},
+		{"id":"edge-11","fromNode":"dubrovsky","fromSide":"bottom","toNode":"event-friendship","toSide":"top","label":"участник"}
+	]
+}

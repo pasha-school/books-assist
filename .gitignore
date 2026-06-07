@@ -1,0 +1,27 @@
+# Obsidian — локальное состояние воркспейса, не нужно в репозитории
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# Корзина Obsidian
+.trash/
+.obsidian/trash/
+
+# Личные диалоги Copilot-плагина
+copilot/copilot-conversations/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Прочее
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+__pycache__/
+*.pyc

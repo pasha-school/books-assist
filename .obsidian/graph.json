@@ -1,0 +1,44 @@
+{
+  "collapse-filter": true,
+  "search": "path:\"Книги/Дубровский - Пушкин\"  ",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "[\"type\":event]",
+      "color": {
+        "a": 1,
+        "rgb": 2074664
+      }
+    },
+    {
+      "query": "[\"type\":character]",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "[\"type\":location]",
+      "color": {
+        "a": 1,
+        "rgb": 4663986
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.258550347222222,
+  "repelStrength": 8.42795138888889,
+  "linkStrength": 0.600086805555556,
+  "linkDistance": 390,
+  "scale": 1.5678523380560396,
+  "close": true
+}
