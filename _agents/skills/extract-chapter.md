@@ -62,7 +62,7 @@
 |---|---|
 | `new_characters` | если файла нет — создай по шаблону [`../templates/character.md`](../templates/character.md); если есть — обнови `appears_in`, `aliases`, добавь секцию `## Глава N` в тело |
 | `new_locations` | аналогично, шаблон [`../templates/location.md`](../templates/location.md) |
-| `new_events` | всегда создаёшь новый файл по [`../templates/event.md`](../templates/event.md), имя `E<NNN>-<кебаб>.md`, где `NNN` — глобальный счётчик событий в книге |
+| `new_events` | всегда создаёшь новый файл по [`../templates/event.md`](../templates/event.md), имя `E<NNN>-<кебаб>.md`, где `NNN` — глобальный счётчик событий в книге. Старайся выделять 1 главное событие в главе. В исключительных случаях 2-3. Обычно больше не надо|
 | `new_relations` | дополняй массив `relations` в frontmatter персонажа **И** добавь inline-поле `тип :: [[Кому]]` в тело (для подписей в Extended Graph и Dataview). Применяй и обратную сторону, если связь симметричная (друг↔друг, брат↔сестра по контексту) |
 | `appearances` | в персонаже/месте добавь главу в `appears_in`, если её там нет |
 

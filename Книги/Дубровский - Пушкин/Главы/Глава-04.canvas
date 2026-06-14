@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"chapter-4","type":"text","text":"# ГЛАВА 4\n\n## Краткое содержание\n\nВладимир пытается разобраться в тяжбе, но помочь отцу уже нельзя. После победы в суде Троекуров испытывает угрызения совести и едет мириться, однако его появление вызывает у Андрея Гавриловича смертельный удар. Владимир прогоняет Троекурова со двора, а слуги готовят тело старого барина к погребению.","x":-420,"y":-40,"width":320,"height":420,"color":"2"},
+		{"id":"troekurov","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Кирила Петрович Троекуров.md","x":860,"y":-600,"width":240,"height":120,"color":"1"},
+		{"id":"event-death","type":"file","file":"Книги/Дубровский - Пушкин/События/E009-смерть-андрея-гавриловича-дубровского.md","x":1390,"y":-80,"width":340,"height":140,"color":"4"},
+		{"id":"event-reconcile","type":"file","file":"Книги/Дубровский - Пушкин/События/E008-троекуров-едет-мириться.md","x":360,"y":-80,"width":340,"height":140,"color":"4"},
+		{"id":"andrey-dubrovsky","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Андрей Гаврилович Дубровский.md","x":1980,"y":-660,"width":240,"height":120,"color":"5"},
+		{"id":"vladimir","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Владимир Дубровский.md","x":1980,"y":640,"width":220,"height":120,"color":"5"},
+		{"id":"egorovna","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Егоровна.md","x":1450,"y":640,"width":220,"height":120,"color":"5"},
+		{"id":"kistenevka","type":"file","file":"Книги/Дубровский - Пушкин/Места/Деревня Кистеневка.md","x":920,"y":640,"width":260,"height":120,"color":"3"},
+		{"id":"shabashkin","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Шабашкин.md","x":420,"y":-600,"width":220,"height":120,"color":"1"}
+	],
+	"edges":[
+		{"id":"edge-vladimir-event-death","fromNode":"vladimir","fromSide":"left","toNode":"event-death","toSide":"right","label":"участник"},
+		{"id":"edge-andrey-event-death","fromNode":"andrey-dubrovsky","fromSide":"left","toNode":"event-death","toSide":"top","label":"умирает"},
+		{"id":"edge-egorovna-event-death","fromNode":"egorovna","fromSide":"top","toNode":"event-death","toSide":"bottom","label":"участник"},
+		{"id":"edge-shabashkin-event-reconcile","fromNode":"shabashkin","fromSide":"bottom","toNode":"event-reconcile","toSide":"top","label":"участник"},
+		{"id":"edge-troekurov-event-death","fromNode":"troekurov","fromSide":"bottom","toNode":"event-death","toSide":"left","label":"присутствует"},
+		{"id":"edge-event-reconcile-kistenevka","fromNode":"event-reconcile","fromSide":"bottom","toNode":"kistenevka","toSide":"top","label":"место"},
+		{"id":"edge-event-death-kistenevka","fromNode":"event-death","fromSide":"bottom","toNode":"kistenevka","toSide":"top","label":"место"},
+		{"id":"edge-event-reconcile-event-death","fromNode":"event-reconcile","fromSide":"right","toNode":"event-death","toSide":"left","label":"→ приезд и удар"},
+		{"id":"edge-vladimir-andrey","fromNode":"vladimir","fromSide":"bottom","toNode":"andrey-dubrovsky","toSide":"top","label":"сын"},
+		{"id":"edge-troekurov-andrey","fromNode":"troekurov","fromSide":"top","toNode":"andrey-dubrovsky","toSide":"top","label":"старый друг → враг"},
+		{"id":"edge-troekurov-event-reconcile","fromNode":"troekurov","fromSide":"left","toNode":"event-reconcile","toSide":"right","label":"инициатор"}
+	]
+}
