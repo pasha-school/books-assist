@@ -2,7 +2,7 @@
 type: book
 title: "Дубровский"
 author: "Александр Пушкин"
-read_through: 5
+read_through: 6
 started_on: 2026-06-07
 finished_on: null
 tags: [book]
