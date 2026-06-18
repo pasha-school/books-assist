@@ -1,13 +1,8 @@
- {
+{
 	"nodes":[
+		{"id":"g-troekurov","type":"group","x":-620,"y":40,"width":8740,"height":760,"color":"1","label":"Род Троекурова"},
+		{"id":"g-events","type":"group","x":140,"y":1000,"width":7980,"height":280,"color":"4","label":"Ключевые события"},
 		{"id":"g-dubrovsky","type":"group","x":900,"y":-480,"width":1700,"height":1160,"color":"5","label":"Род Дубровского"},
-		{"id":"g-events","type":"group","x":140,"y":1000,"width":5580,"height":280,"color":"4","label":"Ключевые события"},
-		{"id":"g-troekurov","type":"group","x":-620,"y":40,"width":900,"height":760,"color":"1","label":"Род Троекурова"},
-		{"id":"c-troekurov","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Кирила Петрович Троекуров.md","x":-560,"y":120,"width":290,"height":170,"color":"1"},
-		{"id":"c-shabashkin","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Шабашкин.md","x":-530,"y":620,"width":260,"height":100,"color":"1"},
-		{"id":"c-paramoshka","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Парамошка.md","x":-60,"y":290,"width":260,"height":100,"color":"1"},
-		{"id":"n-book","type":"file","file":"Книги/Дубровский - Пушкин/index.md","x":440,"y":-20,"width":320,"height":140,"color":"2"},
-		{"id":"e-E002","type":"file","file":"Книги/Дубровский - Пушкин/События/E002-конфликт-на-псарне.md","x":200,"y":1060,"width":320,"height":140,"color":"4"},
 		{"id":"e-E004","type":"file","file":"Книги/Дубровский - Пушкин/События/E004-суд-над-дубровским.md","x":1560,"y":1060,"width":320,"height":140,"color":"4"},
 		{"id":"e-E003","type":"file","file":"Книги/Дубровский - Пушкин/События/E003-троекуров-начина-суд.md","x":930,"y":1060,"width":320,"height":140,"color":"4"},
 		{"id":"e-E005","type":"file","file":"Книги/Дубровский - Пушкин/События/E005-срыв-дубровского-в-суде.md","x":2120,"y":1060,"width":320,"height":140,"color":"4"},
@@ -29,7 +24,18 @@
 		{"id":"c-grisha","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Гриша.md","x":2280,"y":-80,"width":260,"height":100,"color":"5"},
 		{"id":"c-egorovna","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Егоровна.md","x":2280,"y":190,"width":260,"height":100,"color":"5"},
 		{"id":"c-vladimir","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Владимир Дубровский.md","x":960,"y":-360,"width":260,"height":100,"color":"6"},
-		{"id":"e-E013","type":"file","file":"Книги/Дубровский - Пушкин/События/E013-появление-разбойников-дубровского.md","x":5040,"y":1060,"width":320,"height":140,"color":"4"}
+		{"id":"e-E013","type":"file","file":"Книги/Дубровский - Пушкин/События/E013-появление-разбойников-дубровского.md","x":5040,"y":1060,"width":320,"height":140,"color":"4"},
+		{"id":"n-book","type":"file","file":"Книги/Дубровский - Пушкин/index.md","x":440,"y":-20,"width":320,"height":140,"color":"2"},
+		{"id":"e-E002","type":"file","file":"Книги/Дубровский - Пушкин/События/E002-конфликт-на-псарне.md","x":200,"y":1060,"width":320,"height":140,"color":"4"},
+		{"id":"c-paramoshka","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Парамошка.md","x":-60,"y":290,"width":260,"height":100,"color":"1"},
+		{"id":"c-troekurov","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Кирила Петрович Троекуров.md","x":-560,"y":120,"width":290,"height":170,"color":"1"},
+		{"id":"c-shabashkin","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Шабашкин.md","x":-530,"y":620,"width":260,"height":100,"color":"1"},
+		{"id":"c-sasha","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Саша.md","x":5100,"y":120,"width":260,"height":100,"color":"1"},
+		{"id":"c-mimi","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Мамзель Мими.md","x":4780,"y":340,"width":260,"height":100,"color":"1"},
+		{"id":"e-E015","type":"file","file":"Книги/Дубровский - Пушкин/События/E015-дефорж-убивает-медведя.md","x":5720,"y":1060,"width":320,"height":140,"color":"4"},
+		{"id":"c-deforge","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Дефорж.md","x":5750,"y":340,"width":260,"height":100,"color":"1"},
+		{"id":"l-bear-room","type":"file","file":"Книги/Дубровский - Пушкин/Места/Медвежья комната.md","x":5720,"y":1600,"width":320,"height":60,"color":"3"},
+		{"id":"c-maria-kirilovna","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Мария Кириловна.md","x":5230,"y":520,"width":260,"height":100,"color":"1"}
 	],
 	"edges":[
 		{"id":"r-troekurov--владеет--pokrovskoe","fromNode":"c-troekurov","fromSide":"left","toNode":"l-pokrovskoe","toSide":"top","label":"владеет"},
@@ -86,10 +92,20 @@
 		{"id":"a8840259690dbcb0","fromNode":"c-egorovna","fromSide":"bottom","toNode":"c-grisha","toSide":"bottom","label":"мать"},
 		{"id":"r-grisha--участвует--E012","fromNode":"c-grisha","fromSide":"right","toNode":"e-E012","toSide":"top","label":"участник"},
 		{"id":"r-vladimir--участвует--E013","fromNode":"c-vladimir","fromSide":"bottom","toNode":"e-E013","toSide":"top","label":"предводитель"},
-		{"id":"r-troekurov--участвует--E013","fromNode":"c-troekurov","fromSide":"bottom","toNode":"e-E013","fromSide":"left","label":"расследование"},
-		{"id":"r-archip--участвует--E013","fromNode":"c-archip","fromSide":"bottom","toNode":"e-E013","fromSide":"right","label":"участник"},
-		{"id":"r-egorovna--участвует--E013","fromNode":"c-egorovna","fromSide":"right","toNode":"e-E013","fromSide":"top","label":"участник"},
-		{"id":"r-anton--участвует--E013","fromNode":"c-anton","fromSide":"bottom","toNode":"e-E013","fromSide":"right","label":"участник"},
-		{"id":"r-grisha--участвует--E013","fromNode":"c-grisha","fromSide":"bottom","toNode":"e-E013","fromSide":"right","label":"участник"}
+		{"id":"r-troekurov--участвует--E013","fromNode":"c-troekurov","fromSide":"left","toNode":"e-E013","toSide":"left","label":"расследование"},
+		{"id":"r-archip--участвует--E013","fromNode":"c-archip","fromSide":"right","toNode":"e-E013","toSide":"top","label":"участник"},
+		{"id":"r-egorovna--участвует--E013","fromNode":"c-egorovna","fromSide":"top","toNode":"e-E013","toSide":"left","label":"участник"},
+		{"id":"r-anton--участвует--E013","fromNode":"c-anton","fromSide":"right","toNode":"e-E013","toSide":"top","label":"участник"},
+		{"id":"r-grisha--участвует--E013","fromNode":"c-grisha","fromSide":"right","toNode":"e-E013","toSide":"left","label":"участник"},
+		{"id":"r-troekurov--отец--maria","fromNode":"c-troekurov","fromSide":"bottom","toNode":"c-maria-kirilovna","toSide":"left","label":"отец"},
+		{"id":"r-troekurov--отец--sasha","fromNode":"c-troekurov","fromSide":"right","toNode":"c-sasha","toSide":"top","label":"отец"},
+		{"id":"r-mimi--мать--sasha","fromNode":"c-mimi","fromSide":"top","toNode":"c-sasha","toSide":"left","label":"мать"},
+		{"id":"r-deforge--учитель--sasha","fromNode":"c-deforge","fromSide":"top","toNode":"c-sasha","toSide":"right","label":"учитель"},
+		{"id":"r-deforge--учитель--maria","fromNode":"c-deforge","fromSide":"left","toNode":"c-maria-kirilovna","toSide":"top","label":"учитель"},
+		{"id":"r-deforge--участвует--E015","fromNode":"c-deforge","fromSide":"bottom","toNode":"e-E015","toSide":"top","label":"убивает медведя"},
+		{"id":"r-troekurov--участвует--E015","fromNode":"c-troekurov","fromSide":"bottom","toNode":"e-E015","toSide":"top","label":"устраивает шутку"},
+		{"id":"r-maria--участвует--E015","fromNode":"c-maria-kirilovna","fromSide":"bottom","toNode":"e-E015","toSide":"top","label":"свидетель"},
+		{"id":"r-E015--место--bear-room","fromNode":"e-E015","fromSide":"bottom","toNode":"l-bear-room","toSide":"top","label":"место"},
+		{"id":"r-E013--следствие--E015","fromNode":"e-E013","fromSide":"right","toNode":"e-E015","toSide":"left","label":"→ новый поворот"}
 	]
 }
