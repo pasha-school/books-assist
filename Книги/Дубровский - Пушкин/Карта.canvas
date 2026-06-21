@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"g-troekurov","type":"group","x":-620,"y":40,"width":8740,"height":760,"color":"1","label":"Род Троекурова"},
-		{"id":"g-events","type":"group","x":140,"y":1000,"width":7980,"height":420,"color":"4","label":"Ключевые события"},
+		{"id":"g-events","type":"group","x":140,"y":1000,"width":10660,"height":420,"color":"4","label":"Ключевые события"},
 		{"id":"g-dubrovsky","type":"group","x":900,"y":-480,"width":1700,"height":1160,"color":"5","label":"Род Дубровского"},
 		{"id":"e-E015","type":"file","file":"Книги/Дубровский - Пушкин/События/E015-дефорж-убивает-медведя.md","x":5720,"y":1060,"width":320,"height":140,"color":"4"},
 		{"id":"l-bear-room","type":"file","file":"Книги/Дубровский - Пушкин/Места/Медвежья комната.md","x":5720,"y":1600,"width":320,"height":60,"color":"3"},
@@ -12,7 +12,6 @@
 		{"id":"c-shabashkin","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Шабашкин.md","x":-530,"y":620,"width":260,"height":100,"color":"1"},
 		{"id":"e-E012","type":"file","file":"Книги/Дубровский - Пушкин/События/E012-поджог-дома-дубровского.md","x":4580,"y":1060,"width":320,"height":140,"color":"4"},
 		{"id":"e-E013","type":"file","file":"Книги/Дубровский - Пушкин/События/E013-появление-разбойников-дубровского.md","x":5040,"y":1060,"width":320,"height":140,"color":"4"},
-		{"id":"c-deforge","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Дефорж.md","x":5750,"y":340,"width":260,"height":100,"color":"1"},
 		{"id":"c-maria-kirilovna","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Мария Кириловна.md","x":5230,"y":520,"width":260,"height":100,"color":"1"},
 		{"id":"e-E011","type":"file","file":"Книги/Дубровский - Пушкин/События/E011-приезд-суда-в-кистеневку.md","x":4120,"y":1060,"width":320,"height":140,"color":"4"},
 		{"id":"e-E009","type":"file","file":"Книги/Дубровский - Пушкин/События/E009-смерть-андрея-гавриловича-дубровского.md","x":3660,"y":1060,"width":320,"height":140,"color":"4"},
@@ -40,8 +39,13 @@
 		{"id":"c-ivanushka-globov","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Иванушка Глобов.md","x":6500,"y":340,"width":260,"height":100,"color":"1"},
 		{"id":"c-anna-savishna","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Анна Савишна Глобова.md","x":6500,"y":620,"width":260,"height":100,"color":"1"},
 		{"id":"c-anton-pafnutich","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Антон Пафнутьич Спицын.md","x":6210,"y":100,"width":260,"height":100,"color":"1"},
-		{"id":"29da813d37f88764","x":6180,"y":1300,"width":400,"height":90,"color":"4","type":"file","file":"Книги/Дубровский - Пушкин/События/E016-праздник-в-покровском.md"},
-		{"id":"2a2c96df56aa9f72","x":6580,"y":1060,"width":280,"height":111,"color":"4","type":"file","file":"Книги/Дубровский - Пушкин/События/E018-рассказ-о-храбрости-дефоржа.md"}
+		{"id":"29da813d37f88764","type":"file","file":"Книги/Дубровский - Пушкин/События/E016-праздник-в-покровском.md","x":6180,"y":1300,"width":400,"height":90,"color":"4"},
+		{"id":"2a2c96df56aa9f72","type":"file","file":"Книги/Дубровский - Пушкин/События/E018-рассказ-о-храбрости-дефоржа.md","x":6580,"y":1060,"width":280,"height":111,"color":"4"},
+		{"id":"e-E020","type":"file","file":"Книги/Дубровский - Пушкин/События/E020-дефорж-грабит-спицына.md","x":6980,"y":1060,"width":320,"height":120,"color":"4"},
+		{"id":"e-E021","type":"file","file":"Книги/Дубровский - Пушкин/События/E021-дубровский-получает-бумаги-дефоржа.md","x":7380,"y":1060,"width":320,"height":120,"color":"4"},
+		{"id":"c-deforge","type":"file","file":"Книги/Дубровский - Пушкин/Персонажи/Дефорж.md","x":5760,"y":100,"width":260,"height":100,"color":"1"},
+		{"id":"e-E023","type":"file","file":"Книги/Дубровский - Пушкин/События/E023-свидание-марии-и-дубровского.md","x":8400,"y":1060,"width":320,"height":120,"color":"4"},
+		{"id":"e-E022","type":"file","file":"Книги/Дубровский - Пушкин/События/E022-исправник-приезжает-за-дефоржем.md","x":7880,"y":1060,"width":320,"height":120,"color":"4"}
 	],
 	"edges":[
 		{"id":"r-troekurov--владеет--pokrovskoe","fromNode":"c-troekurov","fromSide":"left","toNode":"l-pokrovskoe","toSide":"top","label":"владеет"},
@@ -103,7 +107,7 @@
 		{"id":"r-troekurov--отец--maria","fromNode":"c-troekurov","fromSide":"bottom","toNode":"c-maria-kirilovna","toSide":"left","label":"отец"},
 		{"id":"r-troekurov--отец--sasha","fromNode":"c-troekurov","fromSide":"right","toNode":"c-sasha","toSide":"top","label":"отец"},
 		{"id":"r-mimi--мать--sasha","fromNode":"c-mimi","fromSide":"top","toNode":"c-sasha","toSide":"left","label":"мать"},
-		{"id":"r-deforge--учитель--sasha","fromNode":"c-deforge","fromSide":"top","toNode":"c-sasha","toSide":"right","label":"учитель\nфранц"},
+		{"id":"r-deforge--учитель--sasha","fromNode":"c-deforge","fromSide":"left","toNode":"c-sasha","toSide":"right","label":"учитель\nфранц"},
 		{"id":"r-deforge--учитель--maria","fromNode":"c-deforge","fromSide":"left","toNode":"c-maria-kirilovna","toSide":"right","label":"учитель\nтанцев"},
 		{"id":"r-deforge--участвует--E015","fromNode":"c-deforge","fromSide":"bottom","toNode":"e-E015","toSide":"top","label":"убивает медведя"},
 		{"id":"r-troekurov--участвует--E015","fromNode":"c-troekurov","fromSide":"bottom","toNode":"e-E015","toSide":"top","label":"устраивает шутку"},
@@ -113,7 +117,7 @@
 		{"id":"8108b1b7d48e1ce9","fromNode":"l-bear-room","fromSide":"bottom","toNode":"l-pokrovskoe","toSide":"right"},
 		{"id":"018c471dbffc9ed2","fromNode":"c-mimi","fromSide":"right","toNode":"c-maria-kirilovna","toSide":"top","label":"Бывшая\nвоспитательница"},
 		{"id":"r-anna--мать--ivanushka","fromNode":"c-anna-savishna","fromSide":"top","toNode":"c-ivanushka-globov","toSide":"bottom","label":"мать"},
-		{"id":"r-anton-pafnutich--боится--vladimir","fromNode":"c-anton-pafnutich","fromSide":"top","toNode":"c-vladimir","toSide":"right","label":"боится"},
+		{"id":"r-anton-pafnutich--боится--vladimir","fromNode":"c-anton-pafnutich","fromSide":"top","toNode":"76ab11dcd5c5fa0e","toSide":"right","label":"боится"},
 		{"id":"r-ispravnik--ищет--vladimir","fromNode":"c-ispravnik","fromSide":"top","toNode":"c-vladimir","toSide":"bottom","label":"ищет"},
 		{"id":"r-troekurov--участвует--E017","fromNode":"c-troekurov","fromSide":"bottom","toNode":"e-E017","toSide":"top","label":"ведёт разговор"},
 		{"id":"r-anton-pafnutich--участвует--E017","fromNode":"c-anton-pafnutich","fromSide":"bottom","toNode":"e-E017","toSide":"top","label":"боится"},
@@ -124,6 +128,23 @@
 		{"id":"r-E017--место--pokrovskoe","fromNode":"e-E017","fromSide":"bottom","toNode":"l-pokrovskoe","toSide":"top","label":"место"},
 		{"id":"r-church--находится--pokrovskoe","fromNode":"l-church-pokrovskoe","fromSide":"bottom","toNode":"l-pokrovskoe","toSide":"top","label":"находится"},
 		{"id":"13b2c2c0b42884eb","fromNode":"2a2c96df56aa9f72","fromSide":"left","toNode":"29da813d37f88764","toSide":"right"},
-		{"id":"31d4b160d8510f77","fromNode":"e-E017","fromSide":"bottom","toNode":"29da813d37f88764","toSide":"top"}
+		{"id":"31d4b160d8510f77","fromNode":"e-E017","fromSide":"bottom","toNode":"29da813d37f88764","toSide":"top"},
+		{"id":"r-deforge--участвует--E020","fromNode":"c-deforge","fromSide":"bottom","toNode":"e-E020","toSide":"top","label":"грабит"},
+		{"id":"r-anton-pafnutich--участвует--E020","fromNode":"c-anton-pafnutich","fromSide":"bottom","toNode":"e-E020","toSide":"top","label":"жертва"},
+		{"id":"r-E020--место--pokrovskoe","fromNode":"e-E020","fromSide":"bottom","toNode":"l-pokrovskoe","toSide":"top","label":"место"},
+		{"id":"r-vladimir--участвует--E021","fromNode":"c-vladimir","fromSide":"bottom","toNode":"e-E021","toSide":"top","label":"получает бумаги"},
+		{"id":"r-deforge--участвует--E021","fromNode":"c-deforge","fromSide":"bottom","toNode":"e-E021","toSide":"top","label":"чьё имя взято"},
+		{"id":"r-E021--место--station","fromNode":"e-E021","fromSide":"bottom","toNode":"l-peterburg","toSide":"bottom","label":"почтовая станция"},
+		{"id":"r-ispravnik--участвует--E022","fromNode":"c-ispravnik","fromSide":"bottom","toNode":"e-E022","toSide":"top","label":"пытается схватить"},
+		{"id":"r-troekurov--участвует--E022","fromNode":"c-troekurov","fromSide":"bottom","toNode":"e-E022","toSide":"top","label":"не верит"},
+		{"id":"r-deforge--участвует--E022","fromNode":"c-deforge","fromSide":"bottom","toNode":"e-E022","toSide":"top","label":"скрывается"},
+		{"id":"r-E022--место--pokrovskoe","fromNode":"e-E022","fromSide":"bottom","toNode":"l-pokrovskoe","toSide":"top","label":"место"},
+		{"id":"r-maria--участвует--E023","fromNode":"c-maria-kirilovna","fromSide":"bottom","toNode":"e-E023","toSide":"top","label":"встреча"},
+		{"id":"r-vladimir--участвует--E023","fromNode":"c-vladimir","fromSide":"bottom","toNode":"e-E023","toSide":"top","label":"открывается"},
+		{"id":"r-E023--место--pokrovskoe","fromNode":"e-E023","fromSide":"bottom","toNode":"l-pokrovskoe","toSide":"top","label":"место"},
+		{"id":"r-E020--следствие--E022","fromNode":"e-E020","fromSide":"right","toNode":"e-E022","toSide":"left","label":"→ донос"},
+		{"id":"r-E021--следствие--E020","fromNode":"e-E021","fromSide":"right","toNode":"e-E020","toSide":"left","label":"→ подмена"},
+		{"id":"r-E022--следствие--E023","fromNode":"e-E022","fromSide":"right","toNode":"e-E023","toSide":"left","label":"→ исчезновение"},
+		{"id":"r-deforge--это--vladimir","fromNode":"c-deforge","fromSide":"top","toNode":"76ab11dcd5c5fa0e","toSide":"right","label":"это один человек"}
 	]
 }
