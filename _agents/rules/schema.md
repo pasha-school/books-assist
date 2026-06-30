@@ -11,7 +11,8 @@ book: "[[<Название книги>]]"
 aliases: []                    # альтернативные имена/прозвища
 age: null                      # null | число | строка ("около 7")
 first_appears_in: "[[Глава-01]]"
-appears_in: ["[[Глава-01]]"]
+appears_in:
+  - "[[Глава-01]]"
 relations:
   - {to: "[[<Персонаж>]]", type: "<тип связи>", since: "[[Глава-NN]]", confidence: high}
 tags: [character]
@@ -27,7 +28,8 @@ book: "[[<Название книги>]]"
 parent: null                   # null | "[[<Объемлющее место>]]"
 real_world: false              # true, если реальное место (тогда Yandex Geocoder опционально)
 first_appears_in: "[[Глава-01]]"
-appears_in: ["[[Глава-01]]"]
+appears_in:
+  - "[[Глава-01]]"
 tags: [location]
 ---
 ```
@@ -87,6 +89,16 @@ appears_in: []
 tags: [concept]
 ---
 ```
+
+`appears_in` для `character` и `location` всегда записывай как многострочный YAML-список, по одному wikilink на элемент:
+
+```yaml
+appears_in:
+  - "[[Глава-01]]"
+  - "[[Глава-02]]"
+```
+
+Нельзя склеивать несколько wikilink в одну строку или в один строковый элемент массива.
 
 ## Inline-поля Dataview (для подписей связей)
 
