@@ -2,7 +2,7 @@
 type: book
 title: "Детство"
 author: "Лев Толстой"
-read_through: 5
+read_through: 28
 started_on: null
 finished_on: null
 tags: [book]
