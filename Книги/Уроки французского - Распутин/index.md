@@ -2,7 +2,7 @@
 type: book
 title: "Уроки французского"
 author: "Валентин Распутин"
-read_through: 1
+read_through: 6
 started_on: 2026-07-12
 finished_on: null
 tags: [book]
