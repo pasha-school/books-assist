@@ -1,12 +1,13 @@
 ---
 type: location
 book: "[[<Название книги>]]"
-parent: null
+parent:
 real_world: false
-first_appears_in: "[[Глава-01]]"
+first_appears_in: "[[Книги/Детство - Толстой/Главы/Глава-01]]"
 appears_in:
-  - "[[Глава-01]]"
-tags: [location]
+  - "[[Книги/Детство - Толстой/Главы/Глава-01]]"
+tags:
+  - location
 ---
 
 # <Название>

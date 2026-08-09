@@ -1,13 +1,16 @@
 ---
 type: character
 book: "[[Детство]]"
-aliases: ["Herr Frost", "Фрост"]
-age: null
-first_appears_in: "[[Глава-19]]"
+aliases:
+  - Herr Frost
+  - Фрост
+age:
+first_appears_in: "[[Книги/Детство - Толстой/Главы/Глава-19]]"
 appears_in:
-  - "[[Глава-19]]"
+  - "[[Книги/Детство - Толстой/Главы/Глава-19]]"
 relations: []
-tags: [character]
+tags:
+  - character
 ---
 
 # Herr Frost

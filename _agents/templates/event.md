@@ -1,12 +1,13 @@
 ---
 type: event
 book: "[[<Название книги>]]"
-chapter: "[[Глава-01]]"
+chapter: "[[Книги/Детство - Толстой/Главы/Глава-01]]"
 order: 1
 participants: []
-location: null
-date: null
-tags: [event]
+location:
+date:
+tags:
+  - event
 ---
 
 # <Краткое название события>

@@ -1,15 +1,21 @@
 ---
 type: character
 book: "[[Детство]]"
-aliases: ["La belle Flamande", "красавица фламандка"]
-age: null
-first_appears_in: "[[Глава-25]]"
+aliases:
+  - La belle Flamande
+  - красавица фламандка
+age:
+first_appears_in: "[[Книги/Детство - Толстой/Главы/Глава-25]]"
 appears_in:
-  - "[[Глава-25]]"
+  - "[[Книги/Детство - Толстой/Главы/Глава-25]]"
   - "[[Глава-26]]"
 relations:
-  - {to: "[[Наталья Николаевна]]", type: "попечительница/гостья", since: "[[Глава-25]]", confidence: medium}
-tags: [character]
+  - to: "[[Наталья Николаевна]]"
+    type: попечительница/гостья
+    since: "[[Книги/Детство - Толстой/Главы/Глава-25]]"
+    confidence: medium
+tags:
+  - character
 ---
 
 # La belle Flamande

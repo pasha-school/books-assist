@@ -2,12 +2,13 @@
 type: character
 book: "[[<Название книги>]]"
 aliases: []
-age: null
-first_appears_in: "[[Глава-01]]"
+age:
+first_appears_in: "[[Книги/Детство - Толстой/Главы/Глава-01]]"
 appears_in:
-  - "[[Глава-01]]"
+  - "[[Книги/Детство - Толстой/Главы/Глава-01]]"
 relations: []
-tags: [character]
+tags:
+  - character
 ---
 
 # <Имя>
