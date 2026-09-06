@@ -2,7 +2,7 @@
 type: book
 title: "Дети капитана Гранта"
 author: "Жюль Верн"
-read_through: 41
+read_through: 45
 started_on: 2026-08-09
 finished_on: null
 tags: [book]
